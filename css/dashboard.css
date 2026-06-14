@@ -1,0 +1,177 @@
+.body{
+    width: 100%;
+    min-height: 100vh;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('../assets/backgroundImg.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+.body-content{
+    width: 70%;
+    height: 90%;
+    position:absolute;
+    left: 4rem;
+    top: 10rem;
+}
+
+.content{
+    height: 25%;
+    width: 70%;
+}
+
+
+.body-head{
+    color: white;
+    font-size: 3.5rem;
+    width: 50%;
+    font-family: "EB Garamond";
+    position:relative;
+}
+
+.body-head::after{
+    content: "";
+    position: absolute;
+    left:0;
+    bottom:-1.3rem;
+    width: 30%;
+    background-color: rgba(204, 166, 69);
+    height: 2px;
+
+}
+
+.redef{
+    color: rgba(204, 166, 69);
+}
+
+.body-para{
+    font-size: 1.2rem;
+    color: white;
+    max-width: 400px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.explore-properties,
+#contact{
+    padding: 1.1rem 1.6rem;
+    border-radius: 6px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.explore-properties{
+    border: none;
+    background-color: rgba(204,166,69);
+}
+
+#contact{
+    padding: 1.1rem 2rem;
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(204, 166, 69);
+    margin-left: 2rem;
+}
+
+.explore-properties,
+#contact{
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+
+.explore-properties:hover{
+    transform: translateY(-3px);
+}
+
+#contact:hover{
+    background-color: rgba(204,166,69);
+}
+
+.trust-page{
+    padding-top: 10rem;;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(204, 166, 69, 0.05);
+}
+
+.trust-head{
+    /* margin-top:10rem; */
+    justify-self: center;
+    width: 50%;
+    height: 10rem;
+    position: relative;
+}
+
+.trust-head::before{
+    content: "";
+    position: absolute;
+    left:35%;
+    top:-3rem;
+    width: 30%;
+    background-color: rgba(204, 166, 69);
+    height: 2px;
+}
+
+.trust-head h2{
+    font-size: 3rem;
+    font-family: "EB Garamond";
+    font-weight: 600;
+}
+
+.trust-head p{
+    margin: 1.5rem;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.trust-cards{
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 200px;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-evenly;
+}
+
+.trust-card{
+    height: 21rem;
+    width: 100%;
+    text-justify: center;
+    border-radius: 15px;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.card-img{
+    margin-top: 2rem;
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgba(204, 166, 69, 0.3);
+    justify-self: center;
+    align-self: center;
+}
+
+.trust-card h3{
+    margin-top: 2rem;
+    position:relative;
+}
+
+.trust-card h3::after{
+    content: "";
+    position: absolute;
+    left:35%;
+    bottom:-1.5rem;
+    width: 30%;
+    background-color: rgba(204, 166, 69);
+    height: 2px;
+}
+
+.trust-card p{
+    margin-top: 4rem;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+

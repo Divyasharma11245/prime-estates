@@ -1,0 +1,58 @@
+.outer{
+    background-color: rgba(237, 237, 238);
+        padding:3rem;
+        font-family: "Montserrat", sans-serif;
+}
+
+.footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3rem;
+
+
+}
+
+.footer-div{
+    width: 20rem;
+    /* flex:1 1 20rem; */
+}
+
+img{
+    height:6rem;
+}
+
+h3{
+    margin-top: 3rem;;
+}
+ul{
+    margin-top: 3rem;
+}
+
+li{
+    list-style: none;
+    line-height: 3rem;;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+i{
+    color: rgba(204, 166, 69);
+}
+
+p{
+    font-size: 1rem;
+}
+
+.footer-div p{
+    margin-top: 3rem;
+}
+
+.last-para{
+    margin-top:2rem;
+    justify-self: center;
+}
